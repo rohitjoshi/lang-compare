@@ -1,4 +1,4 @@
 lang-compare
 ============
 
-Language comparisions using Fibonacci series
+Language comparisions using different alogorithms/usage
