@@ -8,6 +8,6 @@
 int main(int argc , char** argv)
 {
 	 long n  = atol(argv[1]);
-	printf("%lu\n", fib(n));
+	printf("LANGUAGE C: %lu\n", fib(n));
 	return 0;
 }

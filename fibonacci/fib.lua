@@ -5,6 +5,6 @@ end
 
 local function main()
 	local n = tonumber(arg[1])
-	io.stdout:write("LANGUAGE LUA:" .. fib(n) .. "\n")
+	io.stdout:write("LANGUAGE LUA: " .. fib(n) .. "\n")
 end
 main()

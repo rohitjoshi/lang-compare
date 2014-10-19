@@ -15,6 +15,6 @@ void main(string[] args)
 {
     long n=to!long(args[1]);
    
-    writeln("LANGUAGE D (DMD): ", fib(n));
+    writeln("LANGUAGE D: ", fib(n));
 
 }

@@ -8,6 +8,6 @@ public class fib{
     }
     public static void main(String[] args){
         int n = Integer.parseInt(args[0]);
-        System.out.println("LANGUAGE  Java  "+ fib(n));
+        System.out.println("LANGUAGE  JAVA: "+ fib(n));
     }
 }

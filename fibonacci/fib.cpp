@@ -12,6 +12,6 @@
 int main(int argc, char** argv)
 {
 	 long n = atol(argv[1]);
-	std::cout << fib(n) << "\n";
+	std::cout << "LANGUAGE CPP:" << fib(n) << "\n";
 	
 }

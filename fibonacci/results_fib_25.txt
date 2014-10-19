@@ -1,0 +1,55 @@
+bash-3.2$ ./run.sh 25
+Running java test
+LANGUAGE  JAVA: 75025
+real	0m0.161s
+user	0m0.170s
+sys	0m0.036s
+
+
+Running C++ test
+LANGUAGE CPP:75025
+real	0m0.007s
+user	0m0.001s
+sys	0m0.006s
+
+
+Running C test
+LANGUAGE C: 75025
+real	0m0.009s
+user	0m0.001s
+sys	0m0.008s
+
+
+Running D (DMD) test
+LANGUAGE D: 75025
+real	0m0.011s
+user	0m0.002s
+sys	0m0.009s
+
+
+Running D (LDC) test
+LANGUAGE D: 75025
+real	0m0.011s
+user	0m0.001s
+sys	0m0.009s
+
+
+Running Go test
+LANGUAGE GO: 75025
+real	0m0.007s
+user	0m0.001s
+sys	0m0.005s
+
+
+Running LUA-JIT test
+LANGUAGE LUA: 75025
+real	0m0.009s
+user	0m0.002s
+sys	0m0.006s
+
+
+Running Terra test
+LANGUAGE LUA: 75025
+real	0m0.016s
+user	0m0.005s
+sys	0m0.010s
