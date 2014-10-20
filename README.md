@@ -6,6 +6,7 @@ Language comparisions using different alogorithms/usage
 
 ####FIBONACCI
 ============
+<pre>
 <table border=0 cellpadding=0 cellspacing=0 width=732 style='border-collapse:
  collapse;table-layout:fixed;width:732pt'>
  <col width=109 style='mso-width-source:userset;mso-width-alt:4650;width:109pt'>
@@ -16,15 +17,15 @@ Language comparisions using different alogorithms/usage
  <col width=89 style='mso-width-source:userset;mso-width-alt:3797;width:89pt'>
  <col width=65 span=2 style='width:65pt'>
  <tr height=20 style='height:20.0pt'>
-  <td height=20 class=xl71 width=109 style='height:20.0pt;width:109pt;color:red'>Language</td>
-  <td class=xl72 width=230 style='width:230pt;color:red'>Compiler/VM</td>
-  <td class=xl73 width=174 style='width:174pt;color:red'>Flags</td>
-  <td class=xl71 width=89 style='width:89pt;color:red'>Real</td>
-  <td class=xl71 width=65 style='width:65pt;color:red'>User</td>
-  <td class=xl71 width=65 style='width:65pt;color:red'>System</td>
+  <td height=20 class=xl71 width=109 style='height:20.0pt;width:109pt'><b>Language</b></td>
+  <td class=xl72 width=230 style='width:230pt;'><b>Compiler/VM</b></td>
+  <td class=xl73 width=174 style='width:174pt;'><b>Flags</b></td>
+  <td class=xl71 width=89 style='width:89pt;'><b>Real</b></td>
+  <td class=xl71 width=65 style='width:65pt;'><b>User</b></td>
+  <td class=xl71 width=65 style='width:65pt;'><b>System</b></td>
  </tr>
  <tr height=20 style='height:20.0pt'>
-  <td height=20 class=xl74 style='height:20.0pt'>FIBONACCI-25</td>
+  <td height=20 class=xl74 style='height:20.0pt'><b>FIBONACCI-25</b></td>
   <td class=xl69 width=230 style='width:230pt'></td>
   <td class=xl67></td>
   <td class=xl65></td>
@@ -154,7 +155,7 @@ Language comparisions using different alogorithms/usage
   <td colspan=3 style='mso-ignore:colspan'></td>
  </tr>
  <tr height=20 style='height:20.0pt'>
-  <td height=20 class=xl74 style='height:20.0pt'>FIBONACCI-50</td>
+  <td height=20 class=xl74 style='height:20.0pt'><b>FIBONACCI-50</b></td>
   <td class=xl70 width=230 style='width:230pt'></td>
   <td class=xl68></td>
   <td colspan=3 style='mso-ignore:colspan'></td>
@@ -276,3 +277,4 @@ Language comparisions using different alogorithms/usage
   <span>0m0.045s</span></td>
  </tr>
 </table>
+</pre>
