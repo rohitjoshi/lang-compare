@@ -3,10 +3,9 @@ lang-compare
 
 Language comparisions using different alogorithms/usage
 
-
 ####FIBONACCI
 ============
-<pre><table border=0 cellpadding=0 cellspacing=0 width=732 style='border-collapse:
+<table border=0 cellpadding=0 cellspacing=0 width=732 style='border-collapse:
  collapse;table-layout:fixed;width:732pt'>
  <col width=109 style='mso-width-source:userset;mso-width-alt:4650;width:109pt'>
  <col class=xl70 width=230 style='mso-width-source:userset;mso-width-alt:9813;
