@@ -40,13 +40,8 @@ real	0m0.007s
 user	0m0.001s
 sys	0m0.005s
 
-Running LUA 5.1.5 test
-LANGUAGE LUA: 75025
-real	0m0.024s
-user	0m0.015s
-sys	0m0.007s
 
-Running LUA-JIT 2.0.3 test
+Running LUA-JIT  test
 LANGUAGE LUA: 75025
 real	0m0.009s
 user	0m0.002s
@@ -58,3 +53,9 @@ LANGUAGE LUA: 75025
 real	0m0.016s
 user	0m0.005s
 sys	0m0.010s
+
+Running LUA test
+LANGUAGE LUA: 75025
+real	0m0.024s
+user	0m0.015s
+sys	0m0.007s
