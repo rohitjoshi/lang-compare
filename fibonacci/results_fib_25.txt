@@ -1,5 +1,5 @@
 bash-3.2$ ./run.sh 25
-Running java test
+Running java 1.6.0_65 test
 LANGUAGE  JAVA: 75025
 real	0m0.161s
 user	0m0.170s
