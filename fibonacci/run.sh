@@ -51,11 +51,15 @@ time ./fib-go $1
 rm fib-go
 printf "\n\n"
 
-echo "Running LUA-JIT test"
+echo "Running LUA-JIT 2.0.3 test"
 time luajit fib.lua $1
 printf "\n\n"
 
 echo "Running Terra test"
 time terra fib.lua $1
+printf "\n\n"
+
+echo "Running Lua 5.1.5 test"
+time lua fib.lua $1
 printf "\n\n"
 
