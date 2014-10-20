@@ -54,3 +54,8 @@ real	2m46.895s
 user	2m46.734s
 sys	0m0.043s
 
+LANGUAGE LUA: 12586269025
+real	37m53.411s
+user	37m49.482s
+sys	0m0.783s
+
