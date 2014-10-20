@@ -1,7 +1,7 @@
 lang-compare
 ============
 
-Language comparisions using different algorithms/usage
+Language comparisons using different algorithms/usage
 
 ####FIBONACCI
 ============
