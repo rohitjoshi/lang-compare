@@ -15,11 +15,24 @@ printf "\n\n"
 
 
 echo "Running C++ test"
-g++ -O3 -c fib.cpp  -o fib-cpp.o
-g++ -o fib-cpp  fib-cpp.o
+g++ -O3 -o fib-cpp fib.cpp
 chmod 755 ./fib-cpp
 time ./fib-cpp $1
-rm fib-cpp.o fib-cpp
+rm fib-cpp
+printf "\n\n"
+
+echo "Running C++ (non-recursive) test"
+clang++ -std=c++11 -O3 -o fib-nr-cpp fib-nr.cpp
+chmod 755 ./fib-nr-cpp
+time ./fib-nr-cpp $1
+rm fib-nr-cpp
+printf "\n\n"
+
+echo "Running C++ (templatized) test"
+clang++ -std=c++11 -O3 -o fib-tmp-cpp fib-tmp.cpp
+chmod 755 ./fib-tmp-cpp
+time ./fib-tmp-cpp $1
+rm fib-tmp-cpp
 printf "\n\n"
 
 echo "Running C test"
