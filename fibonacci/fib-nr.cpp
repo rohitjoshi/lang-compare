@@ -4,7 +4,7 @@ long fib(long n) {
   long last1 = 1;
   long last2 = 0;
   long val = 0;
-  for (auto i = 1; i < 50; ++i) {
+  for (auto i = 1; i < n; ++i) {
     val = last1 + last2;
     last2 = last1;
     last1 = val;
