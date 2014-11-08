@@ -1,3 +1,4 @@
+#![feature(slicing_syntax)]
 use std::os;
 
 // fib returns a function that returns
@@ -10,10 +11,7 @@ fn fib(n: u64) -> u64 {
 }
 
 fn main() {
-    let args = os::args();
-    let args = args.as_slice();
-	let n :u64 = from_str::<u64>(args[1].as_slice()).unwrap();
-
+    let n: u64 = from_str(os::args()[1][]).unwrap();
     let result = fib(n);
 	println!("LANGUAGE Rust: {0}", result);
 }
