@@ -5,7 +5,7 @@ actor Main
        _size = env.args(1).u64()
     end
     var c = fib(_size)
-    env.out.print("LANGUAGE Pony: " +  c.string());
+    env.out.print("LANGUAGE Pony: " +  c.string())
   fun fib(n: U64) :  U64 =>
     if n < 2 then 
       return n 
