@@ -63,3 +63,6 @@ echo "Running Lua 5.1.5 test"
 time lua fib.lua $1
 printf "\n\n"
 
+echo "Running pony test"
+time ./fib-pony/fib-pony $1
+printf "\n\n"
