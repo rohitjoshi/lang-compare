@@ -68,3 +68,8 @@ cd fib-pony
 ponyc ../fib-pony
 time ./fib-pony $1
 printf "\n\n"
+
+echo "Running rust test"
+rustc -O fib.rs -o fib.rust
+time ./fib.rust $1
+printf "\n\n"
