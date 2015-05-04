@@ -64,5 +64,7 @@ time lua fib.lua $1
 printf "\n\n"
 
 echo "Running pony test"
-time ./fib-pony/fib-pony $1
+cd fib-pony
+ponyc ../fib-pony
+time ./fib-pony $1
 printf "\n\n"
