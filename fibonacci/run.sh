@@ -56,7 +56,10 @@ time luajit fib.lua $1
 printf "\n\n"
 
 echo "Running Terra test"
-time terra fib.lua $1
+terra fib.t fib-terra
+chmod 755 fib-terra
+time ./fib-terra $1
+rm fib-terra
 printf "\n\n"
 
 echo "Running Lua 5.1.5 test"
